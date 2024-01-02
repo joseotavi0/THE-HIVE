@@ -1,0 +1,91 @@
+.main-bg{
+  background-image: url('../img/main-bg2.svg');
+  background-size:cover;
+  background-position: center center;
+  color: var(--white);
+}
+
+.white-bg{
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+.white-bg h2 {
+  color: goldenrod;
+}
+
+.main-content{
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+
+.section{
+  min-height: 100vh;
+}
+
+.menu-spacing{
+  height: 6.5rem;
+}
+
+body .full-width{
+  /* height: 6.5rem; */
+  flex: 1 1 100%;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 0.2rem solid var(--gray);
+}
+
+.menu-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.menu h1 {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.menu h1 a{
+  color: inherit;
+}
+.menu h1 a:hover{
+  color: var(--secundary-color) ;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+.menu ul li a{
+  display: block;
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  position: relative;
+}
+
+.menu ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0.3rem;
+  bottom: 1rem;
+  left: 15%;
+  background-color: var(--secundary-color);
+  transition: all 450ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+  width: 75%;
+}

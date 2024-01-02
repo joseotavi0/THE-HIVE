@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body{
+  color: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif ;
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h2{
+ font-size: 5.5rem;
+}
+
+h3{
+  font-size: 5rem;
+
+}
+
+h4{
+  font-size: 4.5rem;
+
+}
+
+h5{
+  font-size: 4rem;
+
+}
+
+h6{
+  font-size: 3.5rem;
+}
+
+p{
+  font-family: 'open sans', sans-serif ;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.table-container{
+  width: 100%;
+  overflow-x: auto;
+}
+
+.reponsive-table table{
+  width: 120%;
+}
+
+table{
+  width: 100%;
+  min-width: 360px;
+  border-collapse: collapse;
+}
+
+table caption{
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+tfoot td, table th{
+  background: var(--light-gray);
+}
+
+table td, table th{
+  padding: 1rem;
+  text-align: left;
+  border:  0.1rem solid var(--light-gray);
+}
