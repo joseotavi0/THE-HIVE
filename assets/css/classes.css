@@ -6,12 +6,17 @@
 }
 
 
-.white-bg{
+/* .white-bg{
   background-color: var(--white);
+  color: var(--primary-color);
+} */
+.white-bg{
+  background-color: var(--black);
   color: var(--primary-color);
 }
 .white-bg h2 {
-  color: goldenrod;
+  color: var(--yellow);
+  text-shadow: 1 2 5 var(--white);
 }
 
 .main-content{
@@ -40,7 +45,7 @@ body .full-width{
   right: 0;
   width: 100%;
   z-index: 1;
-  border-bottom: 0.2rem solid var(--gray);
+  border-bottom: 0.2rem solid var(--primary-color);
 }
 
 .menu-content{
